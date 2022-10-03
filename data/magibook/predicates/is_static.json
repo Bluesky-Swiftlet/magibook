@@ -1,0 +1,68 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "magibook:is_sneak"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "TP_MV_Chk_1": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "TP_MV_Chk_2": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "TP_MV_Chk_3": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "TP_MV_Chk_4": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "TP_MV_Chk_5": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "TP_MV_Chk_6": {
+              "min": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+]

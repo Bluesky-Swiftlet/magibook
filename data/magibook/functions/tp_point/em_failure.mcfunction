@@ -1,0 +1,5 @@
+execute unless entity @s[tag=enabled_teleport] run tellraw @s [{"text": "You didn't put teleport point!\n", "bold": true, "color": "red", "italic": false}, {"text": "You must put teleport point at first!", "color": "red", "bold": true, "italic": false}]
+execute if entity @s[tag=enabled_teleport] run tellraw @s [{"text": "You don't have enough level to activate emergency teleport!\n", "bold": true, "color": "red", "italic": false},{"text": "You must have ", "extra": [{"text": "10 levels", "color": "red", "bold": true, "underlined": true}, {"text": " to activate!"}],"italic": false}]
+execute at @s run playsound minecraft:block.amethyst_cluster.break master @s ~ ~ ~ .6 1.2
+execute at @s run playsound minecraft:block.pointed_dripstone.drip_water_into_cauldron master @s ~ ~ ~ 1 .8
+execute at @s run particle minecraft:smoke ~ ~1 ~ .1 .2 .1 .05 40 force @s

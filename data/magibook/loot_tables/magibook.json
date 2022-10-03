@@ -1,0 +1,25 @@
+{
+  "type": "empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"MAGIBOOK\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'},Tags:[\"magibook\"],title:\"\",author:\"\",pages:['[{\"text\":\"#### MAGIBOOK ####\\\\n\\\\n\",\"font\":\"uniform\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true,\"underlined\":true},{\"text\":\"Teleport function\\\\n\\\\n\",\"font\":\"uniform\",\"bold\":false,\"italic\":false,\"underlined\":false},{\"text\":\"1. Put your teleport point\\\\n\",\"font\":\"uniform\",\"bold\":false,\"italic\":false,\"underlined\":false},{\"text\":\"PUT TELEPORT POINT!\",\"font\":\"uniform\",\"bold\":true,\"italic\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Give_teleport_point\"}},{\"text\":\"\\\\n\\\\n2. Maintain to sneak for 5 seconds... then teleport!\\\\n\\\\n\",\"bold\":false,\"italic\":false,\"underlined\":false,\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"You need 10 levels to teleport.\\\\n\",\"font\":\"uniform\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false,\"underlined\":false},{\"text\":\"It will be consumed after teleporting.\\\\n\",\"font\":\"uniform\",\"color\":\"dark_aqua\"},{\"text\":\"If you move, fly, or be taken damage\\\\nwhile sneaking to charge, it will be\\\\nvanished.\",\"font\":\"uniform\",\"color\":\"red\",\"bold\":true}]}},{\"text\":\"EMERGENCY TELEPORT!!!\",\"bold\":true,\"italic\":true,\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Emergency teleport requires at least 20 levels, \nand \",\"font\":\"uniform\",\"color\":\"dark_aqua\",\"bold\":false},{\"text\":\"all your levels are consumed!!!\",\"font\":\"uniform\",\"color\":\"red\",\"bold\":true}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Emergency_teleport\"}},{\"text\":\"\\\\n\\\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"\",\"font\":\"uniform\",\"color\":\"red\",\"bold\":true}]}},{\"text\":\"DELETE TELEPORT POINT\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false,\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"\",\"font\":\"uniform\",\"color\":\"red\",\"bold\":true}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Delete_teleport_point\"}}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

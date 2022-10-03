@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "magibook:magibook"
+      }
+    }
+  },
+  "rewards": {
+    "function": "magibook:craft_book"
+  }
+}
