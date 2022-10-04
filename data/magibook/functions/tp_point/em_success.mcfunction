@@ -4,6 +4,9 @@ effect give @s absorption 10 4 true
 effect give @s fire_resistance 10 0 true
 effect give @s resistance 5 4 true
 effect give @s saturation 2 4 true
+effect clear @s poison
+effect clear @s wither
+effect clear @s hunger
 execute at @e[tag=teleport_point, scores={identification=0}] run tp ~ ~-.5 ~
 execute at @s run effect give @s blindness 1 0 true
 execute at @s run particle cloud ^ ^1 ^.5 0 .1 .5 .7 500 force @a
