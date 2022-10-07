@@ -30,7 +30,12 @@
 
 [MAGIBOOK Wiki](https://github.com/Bluesky-Swiftlet/magibook/wiki)を参照してください．
 
-# Rights
-このデータパックはChuzume氏作の[Momentum_Hookshot](https://github.com/Chuzume/Momentum-Hookshot)から，クラフトの実装を参考にして作成しております．  
+# Copyright
+このデータパックは[Chuzume](https://github.com/Chuzume)氏作のデータパックの実装を参考にして作成しております．以下のデータパックが該当します: 
+
+- [Re_Portal_Cube](https://github.com/Chuzume/Re_Portal_Cube)から，テレポート処理の実装を参考にしております．
+- [Momentum_Hookshot](https://github.com/Chuzume/Momentum-Hookshot)から，クラフトの実装を参考にしております． 
+  - 該当するクラフトの実装は氏の作成するデータパックの幾つかにおいて同様の実装がされていますが，代表してこのデータパックを例示します． 
+
 当該データパックはクリエイティブ・コモンズのCC-BY-SA-4.0ライセンスに則って公開されており，そのため当データパックにもそのライセンスが継承されます．  
 当データパックを更に改変して公開する場合，継承元であるChuzume氏および当該データパックの表示，および同ライセンスの継承適用が必須となります．
