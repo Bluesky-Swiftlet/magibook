@@ -6,7 +6,7 @@
   {
     "condition": "minecraft:inverted",
     "term": {
-      "condition": "minecraft:alternative",
+      "condition": "minecraft:any_of",
       "terms": [
         {
           "condition": "minecraft:entity_scores",
@@ -40,24 +40,6 @@
           "entity": "this",
           "scores": {
             "TP_MV_Chk_4": {
-              "min": 1
-            }
-          }
-        },
-        {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "TP_MV_Chk_5": {
-              "min": 1
-            }
-          }
-        },
-        {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "TP_MV_Chk_6": {
               "min": 1
             }
           }
